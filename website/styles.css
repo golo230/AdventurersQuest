@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #e0f7fa; /* Light blue background */
+  }
+  
+  .hero {
+    height: 100vh;
+    background: url('images/player.png') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .overlay {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .hero h1 {
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    color: #b2ebf2; /* Soft light blue for the description */
+    font-size: 1.2rem;
+  }
+  
+  #download-button {
+    background-color: #4caf50; /* Green button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  #download-button:hover {
+    background-color: #388e3c; /* Darker green on hover */
+  }
+  
+  .features {
+    padding: 50px;
+    text-align: center;
+    background-color: #81c784; /* Soft green background */
+  }
+  
+  .features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .feature-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .feature {
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .feature img {
+    width: 100%;
+    border-radius: 10px;
+    border: 5px solid #fff; /* White border for images */
+  }
+  
+  .feature h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #000000; /* Black for headings */
+  }
+  
+  .feature p {
+    color: #000000; /* Black for feature descriptions */
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #2e7d32; /* Dark green background */
+    color: #fff;
+  }
+  
